@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_accordions",
+  "info": {
+    "displayName": "accordion",
+    "icon": "angle-double-down"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "richtext"
+    }
+  }
+}

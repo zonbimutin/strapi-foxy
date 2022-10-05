@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_section_features",
+  "info": {
+    "displayName": "features",
+    "icon": "fire"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.feature"
+    }
+  }
+}

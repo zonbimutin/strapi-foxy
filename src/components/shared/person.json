@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_shared_people",
+  "info": {
+    "displayName": "person",
+    "icon": "user-secret"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "socials": {
+      "displayName": "social",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.social"
+    }
+  }
+}

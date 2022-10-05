@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_section_hero_homes",
+  "info": {
+    "displayName": "heroHome"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

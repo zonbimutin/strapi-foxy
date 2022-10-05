@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_section_reinsurances",
+  "info": {
+    "displayName": "reinsurance",
+    "icon": "check-double"
+  },
+  "options": {},
+  "attributes": {
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.feature"
+    }
+  }
+}

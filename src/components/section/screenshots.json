@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_section_screenshots",
+  "info": {
+    "displayName": "screenshots",
+    "icon": "pizza-slice"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

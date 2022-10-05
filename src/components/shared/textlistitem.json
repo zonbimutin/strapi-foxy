@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_shared_textlistitems",
+  "info": {
+    "displayName": "textlistitem",
+    "icon": "list"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  }
+}

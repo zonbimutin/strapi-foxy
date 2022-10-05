@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_shared_prices",
+  "info": {
+    "displayName": "price",
+    "icon": "praying-hands",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "price": {
+      "type": "decimal"
+    },
+    "currency": {
+      "type": "enumeration",
+      "enum": ["dolar", "euro"]
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "strongpoints": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.textlistitem"
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.link"
+    }
+  }
+}

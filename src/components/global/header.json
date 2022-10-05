@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_global_headers",
+  "info": {
+    "displayName": "header",
+    "icon": "apple-alt"
+  },
+  "options": {},
+  "attributes": {
+    "menu": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link"
+    },
+    "socials": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.social"
+    },
+    "logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

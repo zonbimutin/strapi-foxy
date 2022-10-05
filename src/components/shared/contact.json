@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_shared_contacts",
+  "info": {
+    "displayName": "contact",
+    "icon": "concierge-bell"
+  },
+  "options": {},
+  "attributes": {
+    "address": {
+      "type": "richtext"
+    },
+    "email": {
+      "type": "email"
+    },
+    "phone": {
+      "type": "string"
+    }
+  }
+}

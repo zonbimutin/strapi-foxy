@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_section_faqs",
+  "info": {
+    "displayName": "faq",
+    "icon": "question",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.header"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "private": true
+    },
+    "accordions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.accordion"
+    }
+  }
+}
