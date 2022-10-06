@@ -1,7 +1,7 @@
 module.exports = ({ env }) => ({
   'users-permissions': {
     config: {
-      jwtSecret: env('JWT_SECRET')
+      jwtSecret: env('JWT_SECRET'),
     },
   },
   slugify: {
@@ -20,10 +20,11 @@ module.exports = ({ env }) => ({
       endpoint: '/graphql',
       shadowCRUD: true,
       playgroundAlways: true,
-      depthLimit: 7,
+      depthLimit: 15,
       amountLimit: 100,
       apolloServer: {
         tracing: false,
+        introspection: true,
       },
     },
   },
@@ -40,4 +41,4 @@ module.exports = ({ env }) => ({
       },
     },
   },
-});
+})
