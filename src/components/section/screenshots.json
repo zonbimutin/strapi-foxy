@@ -6,10 +6,8 @@
   },
   "options": {},
   "attributes": {
-    "image": {
-      "allowedTypes": [
-        "images"
-      ],
+    "collection": {
+      "allowedTypes": ["images"],
       "type": "media",
       "multiple": true
     }
