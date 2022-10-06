@@ -2,16 +2,21 @@
   "collectionName": "components_section_features",
   "info": {
     "displayName": "features",
-    "icon": "fire"
+    "icon": "fire",
+    "description": ""
   },
   "options": {},
   "attributes": {
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.header"
+    },
     "image": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
-      "multiple": false
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
     },
     "features": {
       "type": "component",

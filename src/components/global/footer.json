@@ -2,16 +2,18 @@
   "collectionName": "components_global_footers",
   "info": {
     "displayName": "footer",
-    "icon": "dragon"
+    "icon": "dragon",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "quicklinks": {
       "type": "component",
@@ -28,6 +30,11 @@
       "type": "component",
       "repeatable": false,
       "component": "shared.contact"
+    },
+    "terms": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link"
     }
   }
 }

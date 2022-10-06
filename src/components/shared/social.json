@@ -1,7 +1,8 @@
 {
   "collectionName": "components_shared_socials",
   "info": {
-    "displayName": "social"
+    "displayName": "social",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -16,6 +17,9 @@
       ]
     },
     "url": {
+      "type": "string"
+    },
+    "label": {
       "type": "string"
     }
   }
