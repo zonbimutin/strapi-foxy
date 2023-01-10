@@ -4,8 +4,7 @@
   "info": {
     "singularName": "page",
     "pluralName": "pages",
-    "displayName": "Page",
-    "description": ""
+    "displayName": "Page"
   },
   "options": {
     "draftAndPublish": true
@@ -17,16 +16,6 @@
     },
     "slug": {
       "type": "string"
-    },
-    "seo": {
-      "type": "component",
-      "repeatable": false,
-      "component": "shared.seo"
-    },
-    "hero": {
-      "type": "component",
-      "repeatable": false,
-      "component": "section.hero-home"
     }
   }
 }

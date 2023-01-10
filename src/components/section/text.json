@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_section_texts",
+  "info": {
+    "displayName": "text",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link"
+    }
+  }
+}
