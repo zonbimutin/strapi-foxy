@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_section_hero_blogs",
+  "info": {
+    "displayName": "heroBlog",
+    "icon": "blind",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link"
+    },
+    "text": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.header"
+    }
+  }
+}
