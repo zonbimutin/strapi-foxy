@@ -4,7 +4,8 @@
   "info": {
     "singularName": "page",
     "pluralName": "pages",
-    "displayName": "Page"
+    "displayName": "Page",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,6 +17,25 @@
     },
     "slug": {
       "type": "string"
+    },
+    "excerpt": {
+      "type": "text",
+      "maxLength": 150
+    },
+    "thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "dynamic": {
+      "type": "dynamiczone",
+      "components": [
+        "section.text",
+        "section.image"
+      ]
     }
   }
 }

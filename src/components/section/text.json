@@ -2,17 +2,13 @@
   "collectionName": "components_section_texts",
   "info": {
     "displayName": "text",
-    "icon": "align-left"
+    "icon": "align-left",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "content": {
       "type": "richtext"
-    },
-    "links": {
-      "type": "component",
-      "repeatable": true,
-      "component": "shared.link"
     }
   }
 }
