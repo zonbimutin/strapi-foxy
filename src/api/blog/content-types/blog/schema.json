@@ -72,8 +72,7 @@
           "localized": true
         }
       },
-      "type": "text",
-      "maxLength": 150
+      "type": "text"
     }
   }
 }

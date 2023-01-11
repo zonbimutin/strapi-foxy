@@ -19,8 +19,7 @@
       "type": "string"
     },
     "excerpt": {
-      "type": "text",
-      "maxLength": 150
+      "type": "text"
     },
     "thumbnail": {
       "type": "media",
